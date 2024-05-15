@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D7ED6552BE1192600DDB213 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC342EC2BE0D9F800598DE7 /* WidgetKit.framework */; };
+		1D7ED6562BE1192600DDB213 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC342EE2BE0D9F800598DE7 /* SwiftUI.framework */; };
+		1D7ED65D2BE1192600DDB213 /* valoDynaScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7ED65C2BE1192600DDB213 /* valoDynaScores.swift */; };
+		1D7ED65F2BE1192600DDB213 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7ED65E2BE1192600DDB213 /* AppIntent.swift */; };
+		1D7ED6612BE1192800DDB213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D7ED6602BE1192800DDB213 /* Assets.xcassets */; };
+		1D7ED6652BE1192800DDB213 /* valoDynaScoresExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1D7ED6542BE1192600DDB213 /* valoDynaScoresExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1D7FE1312BEA138A00144D8A /* valoDynaScoresLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7ED65A2BE1192600DDB213 /* valoDynaScoresLiveActivity.swift */; };
+		1D7FE1352BEA1E3300144D8A /* valoDynaScoresBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7ED6582BE1192600DDB213 /* valoDynaScoresBundle.swift */; };
+		1D7FE1362BEA1E4300144D8A /* valoDynaScoresLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7ED65A2BE1192600DDB213 /* valoDynaScoresLiveActivity.swift */; };
+		1D9A28B72BD7B36A00D89BAA /* LiveMatchBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9A28B62BD7B36A00D89BAA /* LiveMatchBlock.swift */; };
 		1D9CEB232BD44554005D0BE3 /* valoEsportsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9CEB222BD44554005D0BE3 /* valoEsportsApp.swift */; };
 		1D9CEB252BD44554005D0BE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9CEB242BD44554005D0BE3 /* ContentView.swift */; };
 		1D9CEB272BD44556005D0BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D9CEB262BD44556005D0BE3 /* Assets.xcassets */; };
@@ -14,9 +24,21 @@
 		1D9CEB342BD44556005D0BE3 /* valoEsportsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9CEB332BD44556005D0BE3 /* valoEsportsTests.swift */; };
 		1D9CEB3E2BD44556005D0BE3 /* valoEsportsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9CEB3D2BD44556005D0BE3 /* valoEsportsUITests.swift */; };
 		1D9CEB402BD44556005D0BE3 /* valoEsportsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9CEB3F2BD44556005D0BE3 /* valoEsportsUITestsLaunchTests.swift */; };
+		1D9CEB4D2BD44988005D0BE3 /* ApiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9CEB4C2BD44988005D0BE3 /* ApiData.swift */; };
+		1DA42CB12BD661C20050A4C2 /* MatchHistoryBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA42CB02BD661C20050A4C2 /* MatchHistoryBlock.swift */; };
+		1DB4B4332BDFBDBB00DE63A1 /* ScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB4B4322BDFBDBB00DE63A1 /* ScoresView.swift */; };
+		1DE9115C2BDFC8370045D2C2 /* UpcomingMatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9115B2BDFC8370045D2C2 /* UpcomingMatchesView.swift */; };
+		1DE9115E2BDFC8F10045D2C2 /* UpcomingMatchesBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9115D2BDFC8F10045D2C2 /* UpcomingMatchesBlock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1D7ED6632BE1192800DDB213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D9CEB172BD44554005D0BE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D7ED6532BE1192600DDB213;
+			remoteInfo = valoDynaScoresExtension;
+		};
 		1D9CEB302BD44556005D0BE3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1D9CEB172BD44554005D0BE3 /* Project object */;
@@ -33,10 +55,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1D7ED6692BE1192800DDB213 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1D7ED6652BE1192800DDB213 /* valoDynaScoresExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1D7ED6542BE1192600DDB213 /* valoDynaScoresExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = valoDynaScoresExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D7ED6582BE1192600DDB213 /* valoDynaScoresBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = valoDynaScoresBundle.swift; sourceTree = "<group>"; };
+		1D7ED65A2BE1192600DDB213 /* valoDynaScoresLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = valoDynaScoresLiveActivity.swift; sourceTree = "<group>"; };
+		1D7ED65C2BE1192600DDB213 /* valoDynaScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = valoDynaScores.swift; sourceTree = "<group>"; };
+		1D7ED65E2BE1192600DDB213 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		1D7ED6602BE1192800DDB213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D7ED6622BE1192800DDB213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D9A28B62BD7B36A00D89BAA /* LiveMatchBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveMatchBlock.swift; sourceTree = "<group>"; };
 		1D9CEB1F2BD44554005D0BE3 /* valoEsports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = valoEsports.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9CEB222BD44554005D0BE3 /* valoEsportsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = valoEsportsApp.swift; sourceTree = "<group>"; };
-		1D9CEB242BD44554005D0BE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1D9CEB242BD44554005D0BE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		1D9CEB262BD44556005D0BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D9CEB292BD44556005D0BE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D9CEB2F2BD44556005D0BE3 /* valoEsportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = valoEsportsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,9 +88,26 @@
 		1D9CEB392BD44556005D0BE3 /* valoEsportsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = valoEsportsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9CEB3D2BD44556005D0BE3 /* valoEsportsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = valoEsportsUITests.swift; sourceTree = "<group>"; };
 		1D9CEB3F2BD44556005D0BE3 /* valoEsportsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = valoEsportsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1D9CEB4C2BD44988005D0BE3 /* ApiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiData.swift; sourceTree = "<group>"; };
+		1DA42CB02BD661C20050A4C2 /* MatchHistoryBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchHistoryBlock.swift; sourceTree = "<group>"; };
+		1DA68B512BE900AD0008CF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB4B4322BDFBDBB00DE63A1 /* ScoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresView.swift; sourceTree = "<group>"; };
+		1DC342EC2BE0D9F800598DE7 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		1DC342EE2BE0D9F800598DE7 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		1DE9115B2BDFC8370045D2C2 /* UpcomingMatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingMatchesView.swift; sourceTree = "<group>"; };
+		1DE9115D2BDFC8F10045D2C2 /* UpcomingMatchesBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingMatchesBlock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1D7ED6512BE1192600DDB213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7ED6562BE1192600DDB213 /* SwiftUI.framework in Frameworks */,
+				1D7ED6552BE1192600DDB213 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1D9CEB1C2BD44554005D0BE3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,12 +132,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D7ED6572BE1192600DDB213 /* valoDynaScores */ = {
+			isa = PBXGroup;
+			children = (
+				1D7ED6582BE1192600DDB213 /* valoDynaScoresBundle.swift */,
+				1D7ED65A2BE1192600DDB213 /* valoDynaScoresLiveActivity.swift */,
+				1D7ED65C2BE1192600DDB213 /* valoDynaScores.swift */,
+				1D7ED65E2BE1192600DDB213 /* AppIntent.swift */,
+				1D7ED6602BE1192800DDB213 /* Assets.xcassets */,
+				1D7ED6622BE1192800DDB213 /* Info.plist */,
+			);
+			path = valoDynaScores;
+			sourceTree = "<group>";
+		};
 		1D9CEB162BD44554005D0BE3 = {
 			isa = PBXGroup;
 			children = (
 				1D9CEB212BD44554005D0BE3 /* valoEsports */,
 				1D9CEB322BD44556005D0BE3 /* valoEsportsTests */,
 				1D9CEB3C2BD44556005D0BE3 /* valoEsportsUITests */,
+				1DC342EB2BE0D9F800598DE7 /* Frameworks */,
+				1D7ED6572BE1192600DDB213 /* valoDynaScores */,
 				1D9CEB202BD44554005D0BE3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +163,7 @@
 				1D9CEB1F2BD44554005D0BE3 /* valoEsports.app */,
 				1D9CEB2F2BD44556005D0BE3 /* valoEsportsTests.xctest */,
 				1D9CEB392BD44556005D0BE3 /* valoEsportsUITests.xctest */,
+				1D7ED6542BE1192600DDB213 /* valoDynaScoresExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +171,13 @@
 		1D9CEB212BD44554005D0BE3 /* valoEsports */ = {
 			isa = PBXGroup;
 			children = (
+				1DA68B512BE900AD0008CF36 /* Info.plist */,
+				1DB4B4302BDFBD1100DE63A1 /* Components */,
 				1D9CEB222BD44554005D0BE3 /* valoEsportsApp.swift */,
 				1D9CEB242BD44554005D0BE3 /* ContentView.swift */,
+				1DB4B4322BDFBDBB00DE63A1 /* ScoresView.swift */,
+				1DE9115B2BDFC8370045D2C2 /* UpcomingMatchesView.swift */,
+				1D9CEB4C2BD44988005D0BE3 /* ApiData.swift */,
 				1D9CEB262BD44556005D0BE3 /* Assets.xcassets */,
 				1D9CEB282BD44556005D0BE3 /* Preview Content */,
 			);
@@ -127,9 +209,45 @@
 			path = valoEsportsUITests;
 			sourceTree = "<group>";
 		};
+		1DB4B4302BDFBD1100DE63A1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1D9A28B62BD7B36A00D89BAA /* LiveMatchBlock.swift */,
+				1DE9115D2BDFC8F10045D2C2 /* UpcomingMatchesBlock.swift */,
+				1DA42CB02BD661C20050A4C2 /* MatchHistoryBlock.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1DC342EB2BE0D9F800598DE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DC342EC2BE0D9F800598DE7 /* WidgetKit.framework */,
+				1DC342EE2BE0D9F800598DE7 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1D7ED6532BE1192600DDB213 /* valoDynaScoresExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D7ED6662BE1192800DDB213 /* Build configuration list for PBXNativeTarget "valoDynaScoresExtension" */;
+			buildPhases = (
+				1D7ED6502BE1192600DDB213 /* Sources */,
+				1D7ED6512BE1192600DDB213 /* Frameworks */,
+				1D7ED6522BE1192600DDB213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = valoDynaScoresExtension;
+			productName = valoDynaScoresExtension;
+			productReference = 1D7ED6542BE1192600DDB213 /* valoDynaScoresExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		1D9CEB1E2BD44554005D0BE3 /* valoEsports */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D9CEB432BD44556005D0BE3 /* Build configuration list for PBXNativeTarget "valoEsports" */;
@@ -137,10 +255,12 @@
 				1D9CEB1B2BD44554005D0BE3 /* Sources */,
 				1D9CEB1C2BD44554005D0BE3 /* Frameworks */,
 				1D9CEB1D2BD44554005D0BE3 /* Resources */,
+				1D7ED6692BE1192800DDB213 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1D7ED6642BE1192800DDB213 /* PBXTargetDependency */,
 			);
 			name = valoEsports;
 			productName = valoEsports;
@@ -193,6 +313,9 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					1D7ED6532BE1192600DDB213 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					1D9CEB1E2BD44554005D0BE3 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -222,11 +345,20 @@
 				1D9CEB1E2BD44554005D0BE3 /* valoEsports */,
 				1D9CEB2E2BD44556005D0BE3 /* valoEsportsTests */,
 				1D9CEB382BD44556005D0BE3 /* valoEsportsUITests */,
+				1D7ED6532BE1192600DDB213 /* valoDynaScoresExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1D7ED6522BE1192600DDB213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7ED6612BE1192800DDB213 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1D9CEB1D2BD44554005D0BE3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,12 +385,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1D7ED6502BE1192600DDB213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7FE1352BEA1E3300144D8A /* valoDynaScoresBundle.swift in Sources */,
+				1D7ED65D2BE1192600DDB213 /* valoDynaScores.swift in Sources */,
+				1D7FE1362BEA1E4300144D8A /* valoDynaScoresLiveActivity.swift in Sources */,
+				1D7ED65F2BE1192600DDB213 /* AppIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1D9CEB1B2BD44554005D0BE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DA42CB12BD661C20050A4C2 /* MatchHistoryBlock.swift in Sources */,
+				1DE9115E2BDFC8F10045D2C2 /* UpcomingMatchesBlock.swift in Sources */,
+				1DB4B4332BDFBDBB00DE63A1 /* ScoresView.swift in Sources */,
+				1D7FE1312BEA138A00144D8A /* valoDynaScoresLiveActivity.swift in Sources */,
 				1D9CEB252BD44554005D0BE3 /* ContentView.swift in Sources */,
 				1D9CEB232BD44554005D0BE3 /* valoEsportsApp.swift in Sources */,
+				1D9A28B72BD7B36A00D89BAA /* LiveMatchBlock.swift in Sources */,
+				1DE9115C2BDFC8370045D2C2 /* UpcomingMatchesView.swift in Sources */,
+				1D9CEB4D2BD44988005D0BE3 /* ApiData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +432,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1D7ED6642BE1192800DDB213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D7ED6532BE1192600DDB213 /* valoDynaScoresExtension */;
+			targetProxy = 1D7ED6632BE1192800DDB213 /* PBXContainerItemProxy */;
+		};
 		1D9CEB312BD44556005D0BE3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1D9CEB1E2BD44554005D0BE3 /* valoEsports */;
@@ -295,6 +450,60 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1D7ED6672BE1192800DDB213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M859KDG46J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = valoDynaScores/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = valoDynaScores;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = des.valoEsports.valoDynaScores;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D7ED6682BE1192800DDB213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M859KDG46J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = valoDynaScores/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = valoDynaScores;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = des.valoEsports.valoDynaScores;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		1D9CEB412BD44556005D0BE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -417,13 +626,17 @@
 		1D9CEB442BD44556005D0BE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"valoEsports/Preview Content\"";
+				DEVELOPMENT_TEAM = M859KDG46J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = valoEsports/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -445,13 +658,17 @@
 		1D9CEB452BD44556005D0BE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"valoEsports/Preview Content\"";
+				DEVELOPMENT_TEAM = M859KDG46J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = valoEsports/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -545,6 +762,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1D7ED6662BE1192800DDB213 /* Build configuration list for PBXNativeTarget "valoDynaScoresExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D7ED6672BE1192800DDB213 /* Debug */,
+				1D7ED6682BE1192800DDB213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1D9CEB1A2BD44554005D0BE3 /* Build configuration list for PBXProject "valoEsports" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

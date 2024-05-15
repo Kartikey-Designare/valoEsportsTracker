@@ -4,10 +4,43 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>valoDynaScoresExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>valoEsports.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1D7ED6532BE1192600DDB213</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1D9CEB1E2BD44554005D0BE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1D9CEB2E2BD44556005D0BE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1D9CEB382BD44556005D0BE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1DC342E92BE0D9F800598DE7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
