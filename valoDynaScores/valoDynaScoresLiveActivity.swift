@@ -33,7 +33,9 @@ struct valoDynaScoresLiveActivity: Widget, Codable {
             .activityBackgroundTint(Color.cyan)
             .activitySystemActionForegroundColor(Color.black)
             
-        } dynamicIsland: { context in
+        }
+    dynamicIsland: { 
+        context in
             DynamicIsland {
                 // Expanded UI goes here.  Compose the expanded UI through
                 // various regions, like leading/trailing/center/bottom
@@ -49,10 +51,10 @@ struct valoDynaScoresLiveActivity: Widget, Codable {
                 }
             } compactLeading: {
                 Text(
-                    "\(context.attributes.team1.components(separatedBy: " ")[0].first?.description ?? "")\(context.attributes.team1.components(separatedBy: " ")[1].first?.description ?? "")-\(context.state.score1)")
+                    "\(String(context.attributes.team1.first ?? "-").uppercased())-\(context.state.score1)")
             } compactTrailing: {
                 Text(
-                    "\(context.attributes.team2.components(separatedBy: " ")[0].first?.description ?? "")\(context.attributes.team2.components(separatedBy: " ")[1].first?.description ?? "")-\(context.state.score2)")
+                    "\(String(context.attributes.team2.first ?? "-").uppercased())-\(context.state.score2)")
             } minimal: {
                 Text("\(context.state.score1)-\(context.state.score2)")
             }
